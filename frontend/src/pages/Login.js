@@ -43,7 +43,7 @@ const Login = () => {
             <div className='row mt-5'>
                 <div className="col-md-3 col-sm-12"></div>
                 <div className='col-md-6 col-sm-12 '>
-                    <h4>Allow the user to edit his/her own data during the session That's why Registration needed </h4>
+                    <p>Allow the user to edit his/her own data during the session That's why Registration needed </p>
                     <div className='bg-light p-3 mt-5'>
                         <h3 className='pt-4 mb-3'>Login Now </h3>
                         <form >

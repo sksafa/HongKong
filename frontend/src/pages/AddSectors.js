@@ -63,7 +63,7 @@ const AddSectors = ({id, getUserInfos}) => {
                     const { data } = await axios.post(`/api/v1/userInfo/userInfos`, {
                         name, sector, active, user
                     })
-                    toast.success('Registered Successfully')
+                    toast.success('Added Successfully')
                     getUserInfos()
                     setName('')
                     setSectorId('')
